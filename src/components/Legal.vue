@@ -51,11 +51,11 @@ const emit = defineEmits(["close"]);
               </h2>
               <p>
                 Le site internet <strong>Saveurs de LyN</strong> est édité par
-                l'entreprise individuelle [NOM DE L'ENTREPRISE], domiciliée à
-                [ADRESSE DU SIÈGE SOCIAL].
+                l'entreprise individuelle <strong>Nou LY</strong>, domiciliée au
+                <strong>15, rue Marcel Paul, 69520 Grigny</strong>.
               </p>
               <ul class="mt-4 space-y-2">
-                <li><strong>SIRET :</strong> [VOTRE NUMÉRO SIRET]</li>
+                <li><strong>SIRET :</strong> 939 849 659 00015</li>
                 <li>
                   <strong>Responsable de la publication :</strong> Nouxiaxang Ly
                 </li>
@@ -67,9 +67,7 @@ const emit = defineEmits(["close"]);
             <div>
               <h2 class="text-xl font-bold text-white mb-4">2. Hébergement</h2>
               <p>
-                Le site est hébergé par [NOM DE L'HÉBERGEUR (ex: Vercel,
-                Netlify, Hostinger)], dont le siège social est situé à [ADRESSE
-                DE L'HÉBERGEUR].
+                Le site est hébergé par <strong>Vercel Inc.</strong>, situé au 340 S Lemon Ave #4133, Walnut, CA 91789, USA.
               </p>
             </div>
 
@@ -96,76 +94,20 @@ const emit = defineEmits(["close"]);
                 public et le respect des normes d'hygiène alimentaire.
               </p>
             </div>
-          </div>
-        </section>
 
-        <!-- Politique de Confidentialité -->
-        <section id="politique-confidentialite">
-          <h1 class="text-4xl font-display mb-12 gold-gradient">
-            Politique de Confidentialité
-          </h1>
-
-          <div class="space-y-10 text-gray-300 leading-relaxed">
             <div>
               <h2 class="text-xl font-bold text-white mb-4">
-                1. Collecte des données
+                5. Protection des données et Cookies
               </h2>
               <p>
-                Nous collectons des informations lorsque vous utilisez notre
-                formulaire de contact ou que vous nous appelez :
+                Conformément au RGPD, nous nous engageons à protéger vos données personnelles.
               </p>
               <ul class="list-disc list-inside mt-4 space-y-2 ml-4">
-                <li>Nom et prénom</li>
-                <li>Adresse e-mail</li>
-                <li>Numéro de téléphone</li>
-                <li>Détails de l'évènement (pour les demandes de traiteur)</li>
+                <li><strong>Données collectées :</strong> Les seules données collectées sont celles que vous nous transmettez volontairement par email ou téléphone pour vos demandes de devis ou de réservation.</li>
+                <li><strong>Utilisation :</strong> Ces informations sont uniquement utilisées pour répondre à vos demandes et ne sont jamais cédées à des tiers.</li>
+                <li><strong>Cookies :</strong> Ce site utilise uniquement des cookies techniques nécessaires au bon fonctionnement et des outils d'analyse d'audience anonymisés.</li>
+                <li><strong>Vos droits :</strong> Vous pouvez demander la suppression de vos données de contact à tout moment en nous écrivant à <strong>nouxiaxang.ly@gmail.com</strong>.</li>
               </ul>
-            </div>
-
-            <div>
-              <h2 class="text-xl font-bold text-white mb-4">
-                2. Utilisation des informations
-              </h2>
-              <p>
-                Toutes les informations que nous recueillons auprès de vous
-                peuvent être utilisées pour :
-              </p>
-              <ul class="list-disc list-inside mt-4 space-y-2 ml-4">
-                <li>Vous contacter par e-mail ou téléphone</li>
-                <li>Répondre à vos demandes de devis ou de privatisation</li>
-                <li>Améliorer nos services et nos offres</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 class="text-xl font-bold text-white mb-4">
-                3. Conservation des données
-              </h2>
-              <p>
-                Vos données personnelles sont conservées pendant une durée de 3
-                ans à compter du dernier contact, sauf obligation légale de
-                conservation plus longue.
-              </p>
-            </div>
-
-            <div>
-              <h2 class="text-xl font-bold text-white mb-4">4. Vos droits</h2>
-              <p>
-                Conformément au RGPD, vous disposez d'un droit d'accès, de
-                rectification, de portabilité et d'effacement de vos données.
-                Pour exercer ces droits, vous pouvez nous contacter à l'adresse
-                suivante : <strong>nouxiaxang.ly@gmail.com</strong>.
-              </p>
-            </div>
-
-            <div>
-              <h2 class="text-xl font-bold text-white mb-4">5. Cookies</h2>
-              <p>
-                Ce site utilise des cookies techniques nécessaires à son bon
-                fonctionnement. Nous pouvons également utiliser des outils
-                d'analyse (comme Google Analytics) pour mesurer l'audience du
-                site, de manière anonymisée.
-              </p>
             </div>
           </div>
         </section>

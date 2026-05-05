@@ -2,7 +2,7 @@
 import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-vue-next";
 import logoUrl from "../assets/logo.png";
 
-const emit = defineEmits(['open-legal']);
+const emit = defineEmits(["open-legal"]);
 
 const navLinks = [
   { name: "Accueil", href: "#home" },
@@ -24,7 +24,8 @@ const navLinks = [
               <img :src="logoUrl" alt="LyN Logo" class="h-12 w-auto" />
             </a>
             <p class="text-gray-400 leading-relaxed text-sm max-w-xs">
-              Saveurs de LyN vous propose une expérience culinaire asiatique authentique au cœur de Lyon. Foodtruck, traiteur et évènementiel.
+              Saveurs de LyN vous propose une expérience culinaire asiatique
+              authentique au cœur de Lyon. Foodtruck, traiteur et évènementiel.
             </p>
             <div class="flex gap-4">
               <a
@@ -46,7 +47,11 @@ const navLinks = [
 
           <!-- Quick Links -->
           <div>
-            <h3 class="text-white font-bold mb-6 uppercase tracking-widest text-xs">Navigation</h3>
+            <h3
+              class="text-white font-bold mb-6 uppercase tracking-widest text-xs"
+            >
+              Navigation
+            </h3>
             <ul class="flex flex-col gap-4">
               <li v-for="link in navLinks" :key="link.name">
                 <a
@@ -61,36 +66,68 @@ const navLinks = [
 
           <!-- Contact Info -->
           <div>
-            <h3 class="text-white font-bold mb-6 uppercase tracking-widest text-xs">Contact</h3>
+            <h3
+              class="text-white font-bold mb-6 uppercase tracking-widest text-xs"
+            >
+              Contact
+            </h3>
             <ul class="flex flex-col gap-4">
               <li>
-                <a href="tel:0650107030" class="flex items-center gap-3 text-gray-400 hover:text-gold transition-colors text-sm group">
+                <a
+                  href="tel:0650107030"
+                  class="flex items-center gap-3 text-gray-400 hover:text-gold transition-colors text-sm group"
+                >
                   <Phone :size="16" class="text-gold" />
                   06 50 10 70 30
                 </a>
               </li>
               <li>
-                <a href="mailto:nouxiaxang.ly@gmail.com" class="flex items-center gap-3 text-gray-400 hover:text-gold transition-colors text-sm group">
+                <a
+                  href="mailto:nouxiaxang.ly@gmail.com"
+                  class="flex items-center gap-3 text-gray-400 hover:text-gold transition-colors text-sm group"
+                >
                   <Mail :size="16" class="text-gold" />
                   nouxiaxang.ly@gmail.com
                 </a>
               </li>
               <li class="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin :size="16" class="text-gold mt-0.5 shrink-0" />
-                <span>Secteur Lyon et environs<br />Privatisation disponible</span>
+                <span
+                  >Secteur Lyon et environs<br />Privatisation disponible</span
+                >
               </li>
             </ul>
           </div>
         </div>
 
         <!-- Bottom Bar -->
-        <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-gray-500">
-          <div>
-            © {{ new Date().getFullYear() }} Saveurs de LyN. Tous droits réservés.
+        <div
+          class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-md text-gray-500"
+        >
+          <div class="text-center md:text-left flex gap-1">
+            <p>
+              © {{ new Date().getFullYear() }} Saveurs de LyN. Tous droits
+              réservés.
+            </p>
+            <p>
+              | Site créé par
+              <a
+                href="https://thomas-ly.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gold font-medium hover:underline cursor-pointer"
+              >
+                Thomas LY
+              </a>
+            </p>
           </div>
           <div class="flex gap-8">
-            <button @click="emit('open-legal')" class="hover:text-gold transition-colors cursor-pointer">Mentions Légales</button>
-            <button @click="emit('open-legal')" class="hover:text-gold transition-colors cursor-pointer">Politique de Confidentialité</button>
+            <button
+              @click="emit('open-legal')"
+              class="hover:text-gold transition-colors cursor-pointer"
+            >
+              Mentions Légales
+            </button>
           </div>
         </div>
       </div>
