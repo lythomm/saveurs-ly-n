@@ -9,14 +9,14 @@ const locations = [
     day: "Samedi Matin",
     name: "Marché de Millery",
     location: "Place du Marché, 69390 Millery",
-    time: "08:00 - 13:00",
+    time: "07:30 - 12:30",
     coords: [45.632731854265586, 4.782253618343297] as [number, number],
   },
   {
     day: "Dimanche Matin",
     name: "Marché de Charly",
     location: "Place de la Mairie, 69390 Charly",
-    time: "08:00 - 13:00",
+    time: "08:00 - 12:00",
     coords: [45.64928281433973, 4.794773608966779] as [number, number],
   },
 ];
