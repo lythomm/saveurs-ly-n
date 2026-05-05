@@ -24,7 +24,7 @@ const navLinks = [
               <img :src="logoUrl" alt="LyN Logo" class="h-12 w-auto" />
             </a>
             <p class="text-gray-400 leading-relaxed text-sm max-w-xs">
-              Saveurs de LyN vous propose une expérience culinaire asiatique
+              Saveurs de Ly'N vous propose une expérience culinaire asiatique
               authentique au cœur de Lyon. Foodtruck, traiteur et évènementiel.
             </p>
             <div class="flex gap-4">
@@ -106,7 +106,7 @@ const navLinks = [
         >
           <div class="text-center md:text-left flex gap-1">
             <p>
-              © {{ new Date().getFullYear() }} Saveurs de LyN. Tous droits
+              © {{ new Date().getFullYear() }} Saveurs de Ly'N. Tous droits
               réservés.
             </p>
             <p>

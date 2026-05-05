@@ -40,7 +40,7 @@ onMounted(() => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
-    name: "Saveurs de LyN",
+    name: "Saveurs de Ly'N",
     image: "https://saveurs-lyn.fr/logo.png",
     "@id": "",
     url: "https://saveurs-lyn.fr",
@@ -198,7 +198,7 @@ onMounted(() => {
             }"
             class="text-lg md:text-xl text-gray-400 max-w-2xl mb-12 font-light leading-relaxed"
           >
-            Saveurs de LyN vous propose une cuisine authentique et raffinée.
+            Saveurs de Ly'N vous propose une cuisine authentique et raffinée.
             Nems croustillants, Bo Bun parfumés et spécialités maison pour vos
             événements privés ou professionnels.
           </p>
@@ -308,7 +308,7 @@ onMounted(() => {
             >
               <img
                 :src="logoUrl"
-                alt="Saveurs de LyN Logo"
+                alt="Saveurs de Ly'N Logo"
                 class="w-full max-w-xs relative z-10 drop-shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-transform duration-1000"
               />
               <!-- Golden Glare Effect -->
@@ -333,7 +333,7 @@ onMounted(() => {
         opacity: 1,
         transition: { delay: 2000, duration: 1000 },
       }"
-      class="hidden md:flex absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
+      class="hidden md:flex absolute bottom-12 left-1/2 -translate-x-1/2 flex-col items-center gap-3"
     >
       <span
         class="text-sm text-gray-500 uppercase tracking-[0.4em] rotate-180 [writing-mode:vertical-lr]"

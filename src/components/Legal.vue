@@ -50,7 +50,7 @@ const emit = defineEmits(["close"]);
                 1. Éditeur du site
               </h2>
               <p>
-                Le site internet <strong>Saveurs de LyN</strong> est édité par
+                Le site internet <strong>Saveurs de Ly'N</strong> est édité par
                 l'entreprise individuelle <strong>Nou LY</strong>, domiciliée au
                 <strong>15, rue Marcel Paul, 69520 Grigny</strong>.
               </p>
@@ -77,7 +77,7 @@ const emit = defineEmits(["close"]);
               </h2>
               <p>
                 L'ensemble du contenu de ce site (textes, images, logos, vidéos)
-                est la propriété exclusive de Saveurs de LyN, sauf mention
+                est la propriété exclusive de Saveurs de Ly'N, sauf mention
                 contraire. Toute reproduction, distribution ou modification est
                 interdite sans accord préalable écrit.
               </p>
@@ -89,7 +89,7 @@ const emit = defineEmits(["close"]);
               </h2>
               <p>
                 L'activité de vente de nourriture nomade est soumise aux
-                réglementations sanitaires en vigueur. Saveurs de LyN dispose
+                réglementations sanitaires en vigueur. Saveurs de Ly'N dispose
                 des autorisations nécessaires pour l'occupation du domaine
                 public et le respect des normes d'hygiène alimentaire.
               </p>
@@ -118,7 +118,7 @@ const emit = defineEmits(["close"]);
         class="py-12 border-t border-white/5 text-center text-gray-500 text-sm"
       >
         <p>
-          © {{ new Date().getFullYear() }} Saveurs de LyN - Cuisine Asiatique
+          © {{ new Date().getFullYear() }} Saveurs de Ly'N - Cuisine Asiatique
           Artisanale
         </p>
       </footer>

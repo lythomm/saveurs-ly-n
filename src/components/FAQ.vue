@@ -7,7 +7,7 @@ const faqs = [
     question:
       "Proposez-vous la privatisation de foodtruck pour mariage à Lyon ?",
     answer:
-      "Oui, Saveurs de LyN propose la privatisation complète de son foodtruck asiatique pour vos mariages, anniversaires et événements d'entreprise dans toute la région lyonnaise.",
+      "Oui, Saveurs de Ly'N propose la privatisation complète de son foodtruck asiatique pour vos mariages, anniversaires et événements d'entreprise dans toute la région lyonnaise.",
   },
   {
     question: "Quels jours êtes-vous présents sur les marchés ?",

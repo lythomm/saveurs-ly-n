@@ -117,7 +117,7 @@ onUnmounted(() => {
                 }"
                 class="text-lg font-light leading-relaxed"
               >
-                Retrouvez les Saveurs de LyN chaque week-end sur les marchés de l'Ouest Lyonnais. Nous sommes fiers d'être votre foodtruck au marché de Millery et votre foodtruck au marché de Charly.
+                Retrouvez les Saveurs de Ly'N chaque week-end sur les marchés de l'Ouest Lyonnais. Nous sommes fiers d'être votre foodtruck au marché de Millery et votre foodtruck au marché de Charly.
               </p>
               <p 
                 v-motion

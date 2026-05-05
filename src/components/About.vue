@@ -35,7 +35,7 @@ import { Check } from "lucide-vue-next";
                   transition: { duration: 800, delay: 200, ease: 'easeOut' },
                 }"
               >
-                Saveurs de LyN est né d'une volonté simple : partager
+                Saveurs de Ly'N est né d'une volonté simple : partager
                 l'authenticité des saveurs asiatiques à travers des produits
                 frais, faits maison et cuisinés avec passion. Notre
                 <strong>foodtruck asiatique à Lyon</strong> parcourt les routes
@@ -144,7 +144,7 @@ import { Check } from "lucide-vue-next";
             >
               <img
                 src="/about_us.jpg"
-                alt="Saveurs de LyN - Privatisation Foodtruck mariage et évènement Lyon"
+                alt="Saveurs de Ly'N - Privatisation Foodtruck mariage et évènement Lyon"
                 class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-700 brightness-110 contrast-[1.02]"
               />
               <!-- Sky Enhancer Overlay -->
