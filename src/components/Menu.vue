@@ -137,11 +137,19 @@ const categories = [
     <div class="container mx-auto px-6 relative z-10">
       <div class="flex flex-col items-center mb-16">
         <h2
+          v-motion
+          :initial="{ opacity: 0, y: 30, filter: 'blur(10px)' }"
+          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 800, ease: [0.22, 1, 0.36, 1] } }"
           class="text-3xl md:text-5xl font-display mb-4 gold-gradient text-center"
         >
           Notre Menu Traiteur Asiatique
         </h2>
-        <div class="w-24 h-1 bg-gold rounded-2xl mx-auto"></div>
+        <div 
+          v-motion
+          :initial="{ width: 0, opacity: 0 }"
+          :visible-once="{ width: '6rem', opacity: 1, transition: { duration: 1000, delay: 400, ease: 'circOut' } }"
+          class="h-1 bg-gold rounded-2xl mx-auto"
+        ></div>
       </div>
 
       <div
@@ -150,16 +158,14 @@ const categories = [
         <div
           v-for="(cat, idx) in categories"
           :key="cat.title"
-          v-motion
-          :initial="{ opacity: 0, y: 30 }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: { delay: idx * 100, duration: 600 },
-          }"
           class="space-y-8"
         >
-          <div class="flex items-center gap-6">
+          <div 
+            v-motion
+            :initial="{ opacity: 0, x: -20 }"
+            :visible-once="{ opacity: 1, x: 0, transition: { delay: idx * 150, duration: 800, ease: 'easeOut' } }"
+            class="flex items-center gap-6"
+          >
             <h3
               class="text-2xl font-display font-bold text-gold whitespace-nowrap"
             >
@@ -170,9 +176,20 @@ const categories = [
 
           <div class="grid gap-6">
             <div
-              v-for="item in cat.items"
+              v-for="(item, iIdx) in cat.items"
               :key="item.name"
-              class="flex justify-between items-start border-b border-white/5 pb-4 group last:border-0"
+              v-motion
+              :initial="{ opacity: 0, y: 15 }"
+              :visible-once="{ 
+                opacity: 1, 
+                y: 0, 
+                transition: { 
+                  delay: (idx * 150) + (iIdx * 50) + 300, 
+                  duration: 500,
+                  ease: 'easeOut'
+                } 
+              }"
+              class="flex justify-between items-start border-b border-white/5 pb-4 group last:border-0 hover:translate-x-2 transition-transform duration-300"
             >
               <div class="flex-1 mr-8">
                 <div class="flex items-baseline gap-4">
@@ -191,7 +208,7 @@ const categories = [
                   Allergènes : {{ item.allergens }}
                 </span>
               </div>
-              <div class="text-gold-light font-mono text-lg whitespace-nowrap">
+              <div class="text-gold-light font-mono text-lg whitespace-nowrap group-hover:scale-110 transition-transform duration-300 origin-right">
                 {{ item.price }}
               </div>
             </div>
