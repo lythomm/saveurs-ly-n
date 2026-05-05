@@ -303,16 +303,21 @@ onMounted(() => {
               }"
             ></div>
 
-            <div class="relative animate-float rounded-3xl group logo-glare-container w-fit mx-auto">
+            <div
+              class="relative animate-float rounded-3xl group logo-glare-container w-fit mx-auto"
+            >
               <img
                 :src="logoUrl"
                 alt="Saveurs de LyN Logo"
                 class="w-full max-w-xs relative z-10 drop-shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-transform duration-1000"
               />
               <!-- Golden Glare Effect -->
-              <div 
+              <div
                 class="absolute inset-0 z-20 pointer-events-none logo-glare-effect"
-                :style="{ maskImage: `url(${logoUrl})`, webkitMaskImage: `url(${logoUrl})` }"
+                :style="{
+                  maskImage: `url(${logoUrl})`,
+                  webkitMaskImage: `url(${logoUrl})`,
+                }"
               ></div>
             </div>
           </div>
@@ -328,7 +333,7 @@ onMounted(() => {
         opacity: 1,
         transition: { delay: 2000, duration: 1000 },
       }"
-      class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
+      class="hidden md:flex absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
     >
       <span
         class="text-sm text-gray-500 uppercase tracking-[0.4em] rotate-180 [writing-mode:vertical-lr]"

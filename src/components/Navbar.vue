@@ -19,10 +19,9 @@ onUnmounted(() => {
 });
 
 const navLinks = [
-  { name: "Accueil", href: "#home" },
-  { name: "À propos", href: "#about" },
   { name: "Menu", href: "#menu" },
   { name: "Où nous trouver", href: "#location" },
+  { name: "À propos", href: "#about" },
   { name: "Contact", href: "#contact" },
 ];
 

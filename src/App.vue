@@ -44,9 +44,9 @@ const scrollToTop = () => {
     <Navbar />
     <main>
       <Hero />
-      <About />
       <Menu />
       <Location />
+      <About />
       <FAQ />
       <Contact />
     </main>
